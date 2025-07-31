@@ -208,7 +208,7 @@ nav {
     background-color: rgba(80,17,204);
 }
 
-.btn__menu i {
+.btn__menu {
     display: none;
     background: transparent;
     border: none;
@@ -1243,8 +1243,10 @@ footer {
   .nav__list {
     display: none;
   }
-  .btn__menu i {
+  .btn__menu {
     display: block;
+    font-size: 24px;
+    color: #243E63;
   }
   header .row {
     flex-direction: column;
@@ -1331,11 +1333,11 @@ footer {
     width: 100%;
     max-width: 512px;
   }
-  .start__buttons {
+  .start__btns {
     width: auto;
     margin-top: 24px;
   }
-  .start__button {
+  .start__btn {
     padding: 16px 32px;
   }
   footer {
